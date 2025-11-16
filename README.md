@@ -1,7 +1,7 @@
 #FAST FOOD PROJECT
 
-Prototype Website for a fast food order website by Vaanii F. Gborkorquellie.
+This is a Prototype Website for a fast food order website by Vaanii F. Gborkorquellie.
 
-This app was build using React and React Router in order to make it a single page application.
+This is  single page application build using React, React Router, and Redux for advanced state management.
 
 Tailwind CSS was used to style each component.
