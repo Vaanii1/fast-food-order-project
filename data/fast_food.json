@@ -1,0 +1,239 @@
+{
+  "menu": [
+    {
+      "name": "Hamburger",
+      "unitPrice": 9.99,
+      "imageUrl": "/images/hamburger.jpeg",
+      "ingredients": [
+        "Buns",
+        "beef patty",
+        "lettuce",
+        "tomato",
+        "onion",
+        "cheese"
+      ],
+      "id": 1,
+      "soldOut": false
+    },
+    {
+      "name": "Chicken Sandwich",
+      "imageUrl": "/images/chicken-sandwich.jpeg",
+      "unitPrice": 7.99,
+      "ingredients": [
+        "bun",
+        "grilled chicken",
+        "pickles",
+        "tomato",
+        "onion",
+        "mayonnaise"
+      ],
+      "id": 2,
+      "soldOut": false
+    },
+    {
+      "name": "Vegetables Sandwich",
+      "imageUrl": "/images/vegetables-sandwich.jpeg",
+      "unitPrice": 5.99,
+      "ingredients": ["bun", "pickles", "tomato", "onion", "mayonnaise"],
+      "id": 3,
+      "soldOut": false
+    },
+    {
+      "name": "Chicken Nuggets",
+      "imageUrl": "/images/chicken-nuggets.jpeg",
+      "unitPrice": 10.99,
+      "ingredients": [
+        "chicken breast",
+        "onion",
+        "garlic powder",
+        "onion powder",
+        "oil"
+      ],
+      "id": 4,
+      "soldOut": false
+    },
+    {
+      "name": "French Fries",
+      "imageUrl": "/images/french-fries.jpeg",
+      "unitPrice": 4.99,
+      "ingredients": ["potato", "salt", "garlic powder", "onion powder", "oil"],
+      "id": 5,
+      "soldOut": true
+    },
+    {
+      "name": "Simple Glazed Doughnut",
+      "imageUrl": "/images/simple-glazed-doughnut.jpeg",
+      "unitPrice": 6.99,
+      "ingredients": [
+        "flour",
+        "milk",
+        "egg",
+        "butter",
+        "cinnamon",
+        "sugar",
+        "cream",
+        "vanilla extract"
+      ],
+      "id": 6,
+      "soldOut": false
+    },
+    {
+      "name": "Chocolate Glazed Doughnut",
+      "imageUrl": "/images/chocolate-glazed-doughnut.jpeg",
+      "unitPrice": 7.99,
+      "ingredients": [
+        "flour",
+        "milk",
+        "egg",
+        "butter",
+        "cinnamon",
+        "sugar",
+        "cream",
+        "vanilla extract",
+        "cocoa powder"
+      ],
+      "id": 7,
+      "soldOut": false
+    },
+    {
+      "name": "Cinnamon Sugar Doughnut",
+      "imageUrl": "/images/cinnamon-sugar-doughnut.jpeg",
+      "unitPrice": 6.59,
+      "ingredients": [
+        "flour",
+        "milk",
+        "egg",
+        "butter",
+        "cinnamon",
+        "sugar",
+        "cream",
+        "vanilla extract",
+        "cocoa powder"
+      ],
+      "id": 8,
+      "soldOut": false
+    },
+    {
+      "name": "Chocolate Ice Cream",
+      "imageUrl": "/images/chocolate-ice-cream.jpeg",
+      "unitPrice": 6.99,
+      "ingredients": ["cocoa powder", "milk", "heavy cream", "sugar"],
+      "id": 9
+    },
+    {
+      "name": "Vanilla Ice Cream",
+      "imageUrl": "/images/vanilla-ice-cream.jpeg",
+      "unitPrice": 5.99,
+      "ingredients": ["vanilla", "milk", "heavy cream", "sugar"],
+      "id": 10,
+      "soldOut": false
+    }
+  ],
+  "order": [
+    {
+      "id": "ABCDEF",
+      "customer": "Jonas",
+      "phone": "123456789",
+      "address": "Arroios, Lisbon , Portugal",
+      "priority": true,
+      "estimatedDelivery": "2027-04-25T10:00:00",
+      "status": "Order is Shipping",
+      "cart": [
+        {
+          "foodId": 7,
+          "name": "Chocolate Glazed Doughnut",
+          "quantity": 3,
+          "unitPrice": 7.99,
+          "totalPrice": 23.97
+        },
+        {
+          "foodId": 5,
+          "name": "French Fries",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalPrice": 9.98
+        },
+        {
+          "foodId": 3,
+          "name": "Vegetables Sandwich",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalPrice": 11.98
+        }
+      ],
+      "position": "-9.000,38.000",
+      "orderPrice": 45.93,
+      "priorityPrice": 10
+    },
+    {
+      "id": "ABCDEFGH",
+      "customer": "Bendu",
+      "phone": "1234567",
+      "address": "Monrovia, Montserrado , Liberia",
+      "priority": false,
+      "estimatedDelivery": "2027-04-25T10:00:00",
+      "status": "Order is almost there",
+      "cart": [
+        {
+          "foodId": 5,
+          "name": "French Fries",
+          "quantity": 2,
+          "unitPrice": 4.99,
+          "totalPrice": 9.98
+        },
+        {
+          "foodId": 3,
+          "name": "Vegetables Sandwich",
+          "quantity": 1,
+          "unitPrice": 5.99,
+          "totalPrice": 11.98
+        },
+        {
+          "foodId": 7,
+          "name": "Chocolate Glazed Doughnut",
+          "quantity": 3,
+          "unitPrice": 7.99,
+          "totalPrice": 23.97
+        }
+      ],
+      "position": "-9.000,38.000",
+      "orderPrice": 45.93,
+      "priorityPrice": 0
+    },
+    {
+      "customer": "van",
+      "phone": "12345",
+      "address": "police aca",
+      "cart": [
+        {
+          "foodId": 1,
+          "name": "Hamburger",
+          "quantity": 3,
+          "unitPrice": 9.99,
+          "totalPrice": 29.97
+        },
+        {
+          "foodId": 2,
+          "name": "Chicken Sandwich",
+          "quantity": 2,
+          "unitPrice": 7.99,
+          "totalPrice": 15.98
+        },
+        {
+          "foodId": 3,
+          "name": "Vegetables Sandwich",
+          "quantity": 3,
+          "unitPrice": 5.99,
+          "totalPrice": 17.97
+        }
+      ],
+      "position": "",
+      "priority": true,
+      "estimatedDelivery": "2025-10-14T22:53:21.371Z",
+      "status": "Order is Shipping and will be delivered in 3 days",
+      "orderPrice": 63.92,
+      "priorityPrice": 12.784,
+      "id": "EKwU67u"
+    }
+  ]
+}
